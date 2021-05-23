@@ -4,7 +4,7 @@ from gpiozero import LED, Button
 from time import sleep
 import random
 
-blue_led = LED(2)
+blue_led = LED(18)
 blue_button = Button(3)
 green_led = LED(17)
 green_button = Button(27)
@@ -15,7 +15,7 @@ yellow_button = Button(6)
 white_led = LED(19)
 white_button = Button(26)
 
-led_list = [2,17,10,5,19]
+led_list = [18,17,10,5,19]
 button_list = [3,27,9,6,26]
 
 print("Welcome to Simon!\n\nWatch the pattern of lights, then press the buttons in the order they lit up!")
